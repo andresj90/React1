@@ -1,0 +1,55 @@
+
+//react element colors
+$privaryColor: #6c757d; 
+$secondaryColor: #E0E0E0;
+
+//fonts 
+$mainFontColor: #fff;
+
+//links 
+$linksHover : #9E9E9E;
+
+// NavBar 
+
+
+.NavBar {
+    padding: 0px 10px;
+    border-radius: 5px;
+        a {
+            color: $mainFontColor;
+        }
+
+      
+                
+        .nav-item:active {
+            background-color: #0099FF !important;
+        }
+}
+
+
+
+//footer FooterUI 
+.FooterUI {
+    background-color: $privaryColor;
+}
+
+.FooterUI_footer-copyright {
+    background-color: $secondaryColor;
+}
+
+.FooterUI_row {
+    color: $mainFontColor;
+}
+
+.FooterUI_link {
+    color: $mainFontColor;
+    margin-left: 5px;
+}
+
+.FooterUI_link:hover{
+    color: $linksHover;
+}
+
+.FooterUI_icon .social-svg-icon{
+    fill: #fff !important;
+}
